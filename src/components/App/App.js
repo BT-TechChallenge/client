@@ -10,7 +10,6 @@ const App = () => {
   return (
     <main className="App">
       <h1 className="title">BlueTread Weather App</h1>
-
       <Switch>
         <Route
           path="/:location/forecast"
