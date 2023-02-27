@@ -1,7 +1,7 @@
 import React from "react";
 import "./ForecastCard.css";
 
-const ForecastCard = ({ date, day, astro, hour, location }) => {
+const ForecastCard = ({ date, day }) => {
   return (
     <div className="forecast-card">
       <h4>

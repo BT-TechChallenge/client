@@ -18,13 +18,7 @@ const ForecastContainer = () => {
   if (!forecast) return <LoadingWheel />;
 
   const forecastCards = forecast.map((f) => (
-    <ForecastCard
-      date={f.date}
-      day={f.day}
-      astro={f.astro}
-      hour={f.hour}
-      key={f.date}
-    />
+    <ForecastCard date={f.date} day={f.day} />
   ));
 
   return (
